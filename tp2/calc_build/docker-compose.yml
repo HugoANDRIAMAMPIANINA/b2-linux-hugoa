@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  python-calculator:
+    image: calc
+    environment:
+      - CALC_PORT=6767
+    ports:
+      - "6767:6767"
